@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+}
+
+div {
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+.height35{
+	height:37.5%;
+}
+
+.height12{
+	height:12.5%;
+}
+
+.width80 {
+	width:80%;
+}
+.width70{
+	width:70%;
+}
+
+.width20{
+	width:20%;
+}
+
+.width10{
+	width:10%;
+}
+
+.red{
+	background-color: #FF0000;
+}
+
+.blue{
+	background-color: #0000FF;
+}
+
+.yellow{
+	background-color: ffff00;
+}
+
+.with-border {
+	border: 10px black solid;
+}
+
+.top-b {
+	border-top: 9px black solid;
+}
+
+.top-b-e {
+	border-top: 18px black solid;
+}
+
+.bottom-b {
+	border-bottom: 9px black solid;
+}
+
+.bottom-b-l {
+	border-bottom: 15px black solid;
+}
+
+.bottom-b-e {
+	border-bottom: 18px black solid;
+}
+
+.left-b {
+	border-left: 9px black solid;
+
+}
+.right-b {
+	border-right: 9px black solid;
+}
+
+.entire {
+	border-top: 15px #f5f5dc solid;
+	border-left:15px #f5f5dc solid;
+	border-right: 15px #f5f5dc solid;
+	border-bottom: 15px #f5f5dc solid;
+	z-index: 999;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="entire">
+
+	<div class="height35">
+		<div class="width20 white top-w left-w right-b bottom-b-e"></div>
+		<div class="width80 red top-w left-b right-w"></div>
+	</div>
+
+	<div class="height35">
+		<div class="width20 white top-b-e left-w right-b bottom-b"></div>
+		<div class="width80 red left-b bottom-b right-w"></div>
+	</div>
+
+	<div class="height12">
+		<div class="width20 blue top-b left-w right-b"></div>
+		<div class="width70 white top-b left-b right-b"></div>
+		<div class="width10 white top-b left-b bottom-b-e right-w"></div>
+	</div>
+
+	<div class="height12">
+		<div class="width20 blue left-w right-b bottom-w"></div>
+		<div class="width70 white left-b right-b bottom-w"></div>
+		<div class="width10 yellow left-b top-b-e right-w bottom-w"></div>
+	</div>
+
+</div>
+</body>
+</html>
