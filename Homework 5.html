@@ -1,0 +1,132 @@
+<bookcase>
+
+<style>
+#Mobile Trend 2017 {
+  language: korean;
+  font-style: serif;
+  thickness: 367pg;
+  cover-color: white;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: mybrother;
+}
+
+#Me Before You {
+  language: english;
+  font-style: serif;
+  thickness: 418pg;
+  cover-color: image;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: Anna;
+
+}
+
+#The Question that Never Goes Away {
+  language: english;
+  font-style: serif;
+  thickness: 149pg;
+  cover-color: blue;
+  my-rating: 4stars;
+  person-who-recommended-it-to-me: MrBrents;
+}
+
+#The Craft of Research {
+  language: english;
+  font-style: serif;
+  thickness: 311pg;
+  cover-color: brown;
+  my-rating: 3stars;
+  person-who-recommended-it-to-me: TheNewSchool;
+}
+
+#Buying In {
+  language: english;
+  font-style: serif;
+  thickness: 291pg;
+  cover-color: yellow;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: MrBrokaw;
+
+}
+
+#Bible {
+  language: korean;
+  font-style: serif;
+  thickness: 1754pg;
+  cover-color: brown;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: mymom;
+}
+
+#Art & Fear {
+  language: english;
+  font-style: serif;
+  thickness: 122pg;
+  cover-color: #f5f5dc;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: MrsLambert;
+}
+
+#Typography {
+  language: korean;
+  font-style: serif;
+  thickness: 431pg;
+  cover-color: white;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: mydad;
+}
+
+#Brand Design {
+  language: korean;
+  font-style: serif;
+  thickness: 407pg;
+  cover-color: grey;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: mydad;
+}
+
+
+#How 30 Great Ads Were Made {
+  language: english;
+  font-style: serif;
+  thickness: 224pg;
+  cover-color: black;
+  my-rating: 5stars;
+  person-who-recommended-it-to-me: MrBrokaw;
+}
+
+</style>
+
+selector {
+  query: [idea~=="design"]
+  result: Typography, Brand Design, How 30 Great Ads Were Made
+
+  query: [idea~=="personalgrowth"]
+  result: Bible, The Question that Never Goes Away, Art & Fear
+
+  query: [recommendation~=="romance"]
+  result: Me Before You
+
+  query: [college~=="schoolwork"]
+  result: Art & Fear, The Craft of Research, Buying In, How 30 Great Ads Were Made
+
+  query: [review~=="boring"]
+  result: The Craft of Research
+}
+
+  <shelf first>
+    <book id="Mobile Trend 2017">
+    <book id="Me Before You">
+    <book id="The Question that Never Goes Away">
+    <book id="Bible">
+    <book id="Art & Fear">
+  </shelf first>
+
+  <shelf second>
+    <book id="The Craft of Research">
+    <book id="Buying In">
+    <book id="Typography">
+    <book id="Brand Design">
+    <book id="How 30 Great Ads Were Made">
+  </shelf second>
+
+</bookcase>
