@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title></title>
+<style>
+html,body{
+	width:100%;
+	height:100%;
+	background-color: #282d28;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square-1 {
+	width: 50vmin;
+	height: 50vmin;
+	border-radius: 50%;
+	background-color: #c3c8bf;
+	position: relative;
+	left: 20%;
+	top: 20%;
+}
+
+.square-2 {
+	width: 50vmin;
+	border-radius: 50%;
+	height: 50vmin;
+	background-color: #ba4a3b;
+	position: relative;
+	left: 80%;
+	top: 20%;
+}
+
+
+
+@keyframes bounce {
+
+	50% {
+		transform: translate(100px, 0px);
+	}
+	100% {
+		transform:initial;
+	}
+}
+
+@keyframes mymove {
+	50% {
+		transform: translate(100px, 0px);
+	}
+	
+}
+.animated {
+	animation: bounce 2s infinite ease;
+	animation-direction: alternate;
+}
+
+.animated-1 {
+	animation: mymove 2s infinite ease;
+	animation-direction: reverse;
+}
+
+</style>
+</head>
+<body>
+<div class="square-1 animated">
+<br>
+<br>
+<br>
+<div class="square-2 animated-1">
+</div>
+</body>
+<html>
